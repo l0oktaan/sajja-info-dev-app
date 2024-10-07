@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 // เส้นทางสำหรับ API หรือ back-end
 app.get('/api/data', (req, res) => {
-    const data = { message: "Hello from the backend!" };
+    const data = { message: "Hello from the API" };
     res.json(data);
 });
 
